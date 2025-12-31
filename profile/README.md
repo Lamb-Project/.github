@@ -8,7 +8,7 @@ layout: "home"
 ---
 
 <div style="text-align: center; margin: 2rem 0;">
-  <img src="../images/lamb_1.png" alt="LAMB Logo" style="max-width: 300px; height: auto;">
+  <img src="[https://lamb-project.org/images/lamb_1.png" alt="LAMB Logo" style="max-width: 300px; height: auto;">
 </div>
 
 # Create AI assistants for education integrated in your Learning Management System
