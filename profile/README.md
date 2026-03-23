@@ -13,11 +13,11 @@
 **Create AI assistants for education integrated in your Learning Management System**
 
 <div style="text-align: center; margin: 2rem 0;">
-  {{< button href="/tutorial" style="primary" >}}📚 Quick Tutorial (15 min){{< /button >}}
-  {{< button href="developers" style="secondary" >}}👨‍💻 For Developers{{< /button >}}
-  {{< button href="https://github.com/Lamb-Project/lamb" style="secondary" >}}View on GitHub{{< /button >}}
-  {{< button href="/en/roadmap" style="secondary" >}}📋 Roadmap{{< /button >}}
-  {{< button href="/features" >}}See all features{{< /button >}}
+  <a href="http://www.lamb-project.org/tutorial">📚 Quick Tutorial (15 min)</a> ·
+  <a href="http://www.lamb-project.org/developers">👨‍💻 For Developers</a> ·
+  <a href="https://github.com/Lamb-Project/lamb">View on GitHub</a> ·
+  <a href="http://www.lamb-project.org/en/roadmap">📋 Roadmap</a> ·
+  <a href="http://www.lamb-project.org/features">See all features</a>
 </div>
 
 **LAMB** is a web platform that allows you to **design, train and publish AI-based learning assistants** in a visual and intuitive way. It works as a "teaching chatbot builder" that combines language models (GPT-4, Mistral, local models) with your own educational materials.
@@ -98,11 +98,11 @@ Catalan, Spanish, English and Basque included as standard.
 **LAMB gives you total control to build a "specialized ChatGPT" for your subject, connect it to your Moodle and keep your students' data completely secure.**
 
 <div style="text-align: center; margin: 2rem 0;">
-  {{< button href="/tutorial" style="primary" >}}📚 Quick Tutorial (15 min){{< /button >}}
-  {{< button href="developers" style="secondary" >}}👨‍💻 For Developers{{< /button >}}
-  {{< button href="https://github.com/Lamb-Project/lamb" style="secondary" >}}View on GitHub{{< /button >}}
-  {{< button href="/en/roadmap" style="secondary" >}}📋 Roadmap{{< /button >}}
-  {{< button href="/features" >}}See all features{{< /button >}}
+  <a href="http://www.lamb-project.org/tutorial">📚 Quick Tutorial (15 min)</a> ·
+  <a href="http://www.lamb-project.org/developers">👨‍💻 For Developers</a> ·
+  <a href="https://github.com/Lamb-Project/lamb">View on GitHub</a> ·
+  <a href="http://www.lamb-project.org/en/roadmap">📋 Roadmap</a> ·
+  <a href="http://www.lamb-project.org/features">See all features</a>
 </div>
 
 ---
