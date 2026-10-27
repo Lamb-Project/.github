@@ -1,123 +1,73 @@
+# LAMB: Learning Assistants Manager and Builder
 
-# LAMB : Learning Assistants Manager and Builder
+**Bring generative AI into your institution's LMS.** Teachers create RAG assistants and rubric-based pre-assessment activities; the institution manages access, model providers and data.
 
-# Create AI assistants for education integrated in your Learning Management System
+<div align="center">
 
-<div style="text-align: center; margin: 1.5rem 0;">
-  <a href="http://www.lamb-project.org" style="text-decoration: none; margin: 0.25rem;"><img src="https://img.shields.io/badge/Website-lamb--project.org-blue" alt="Website"></a>
-  <a href="https://github.com/Lamb-Project/lamb/blob/main/LICENSE" style="text-decoration: none; margin: 0.25rem;"><img src="https://img.shields.io/badge/license-GPL%20v3-blue.svg" alt="License"></a>
-  <a href="https://manifesto.safeaieducation.org" style="text-decoration: none; margin: 0.25rem;"><img src="https://img.shields.io/badge/Safe_AI_Education-Manifesto-green" alt="Safe AI in Education"></a>
-  <a href="https://github.com/Lamb-Project/lamb" style="text-decoration: none; margin: 0.25rem;"><img src="https://img.shields.io/badge/GitHub-Lamb--Project-black" alt="GitHub"></a>
-</div>
+[![Website](https://img.shields.io/badge/Website-lamb--project.org-blue)](https://lamb-project.org/en/)
+[![License](https://img.shields.io/badge/license-GPL%20v3-blue.svg)](https://github.com/Lamb-Project/lamb/blob/main/LICENSE)
+[![Safe AI in Education](https://img.shields.io/badge/Safe_AI_Education-Manifesto-green)](https://manifesto.safeaieducation.org)
+[![GitHub](https://img.shields.io/badge/GitHub-Lamb--Project-black)](https://github.com/Lamb-Project/lamb)
 
-**Create AI assistants for education integrated in your Learning Management System**
-
-<div style="text-align: center; margin: 2rem 0;">
-
-[📚 **Quick Tutorial (15 min)**](https://lamb-project.org/tutorial) ·
-[👨‍💻 For Developers](https://lamb-project.org/developers) ·
-[View on GitHub](https://github.com/Lamb-Project/lamb) ·
-[📋 Roadmap](https://lamb-project.org/en/roadmap) ·
-[Website](https://lamb-project.org)
+[📚 **Guides (LAMB 0.8)**](https://lamb-project.org/en/guides/0.8/) ·
+[👩‍🏫 Teaching](https://lamb-project.org/en/teaching/) ·
+[🏛️ Institutions](https://lamb-project.org/en/institutions/) ·
+[👨‍💻 Developers](https://lamb-project.org/en/developers/) ·
+[🔬 Research](https://lamb-project.org/en/research/)
 
 </div>
 
-**LAMB** is a web platform that allows you to **design, train and publish AI-based learning assistants** in a visual and intuitive way. It works as a "teaching chatbot builder" that combines language models (GPT-4, Mistral, local models) with your own educational materials.
+**LAMB** is free software (GNU GPL v3) created by Marc Alier and Juanan Pereira at the Universitat Politècnica de Catalunya (UPC) and the Universidad del País Vasco (UPV/EHU). It integrates into the institutional LMS through LTI (Moodle, Canvas and other LTI-capable platforms), so AI activities live inside the courses teachers and students already use.
 
-**LAMB** is an open source project developed by Marc Alier and Juanan Pereira, professors and researchers at the Universitat Politècnica de Catalunya (UPC) and Universidad del País Vasco (UPV/EHU).
+## What LAMB does
 
-## What does LAMB do for you?
+### 🎓 RAG assistants built around your course
+Retrieval-augmented generation brings relevant passages from your own teaching materials into an assistant's answers. Create an assistant, connect its sources and make it available inside your LMS through LTI.
+[Create your first assistant →](https://lamb-project.org/en/guides/0.8/first-assistant/) · [Add your course materials →](https://lamb-project.org/en/guides/0.8/knowledge/)
 
-### 🎓 Specialized Subject Tutors
-Design assistants that only respond about the subject you choose, always staying within the appropriate educational context.
+### 📝 PRE: rubric-based pre-assessment
+Create assistants that apply a rubric to student work and propose feedback. The teacher reviews the result and decides how it is used in assessment.
+[Explore PRE →](https://lamb-project.org/en/teaching/#rubric-based-pre-assessment-pre)
 
-### 📚 Intelligent Knowledge Ingestion
-Upload documents (PDF, Word, Markdown) and LAMB processes them automatically with a **flexible data model** that:
-- Extracts and structures content while preserving context and relationships
-- Creates semantic embeddings optimized for educational search
-- Allows custom metadata for each document
-- Adapts to different formats and content structures
-- Feeds the model through RAG (Retrieval Augmented Generation)
+### 🔍 Testing and evaluation
+Use test cases, saved results and activity analysis to inspect responses, find weaknesses and assess changes before you publish.
+[Test and evaluate an assistant →](https://lamb-project.org/en/guides/0.8/testing/)
 
-### 🔍 Advanced Testing and Debugging
-"Debug" mode that shows the complete prompt to understand exactly what is sent to the model, facilitating response optimization.
+### 🤖 LAMB LEGATUS: an agent that works for the teacher
+An agent built into LAMB, with tools for LAMB and your Moodle course, your account's permissions and an approval step the model cannot skip. It helps you create and improve assistants, build and run tests, and prepare knowledge bases from your course. Changes wait for your approval. No additional Moodle plugin is required: the connector uses standard Moodle web services.
+[Meet LAMB LEGATUS →](https://lamb-project.org/en/guides/0.8/legatus/) · [Connect LAMB and Moodle →](https://lamb-project.org/en/guides/0.8/moodle/)
 
-### 🎯 LTI Integration with Moodle
-Publish the assistant as an external LTI tool and embed it in your Moodle in a couple of clicks.
+## For institutions
 
-### 🔒 Guaranteed Privacy
-Students interact within LAMB; their data is not shared with external AI model providers.
+- **Your AI, under your rules.** Choose where inference runs: your own infrastructure or supported cloud providers. Manage access, provider choices and data handling as part of your AI governance and GDPR work (LAMB provides the controls; compliance also depends on your policies and deployment).
+- **The last mile for your AI.** Your LMS knows who is enrolled, in which course and with which role; LAMB learns it through LTI. The organization sets the rules and each teacher's allowance, teachers set limits and a timetable per course, and each student gets a personal key for their own tools, with every key's use counted.
+  [How the last mile works →](https://lamb-project.org/en/guides/0.8/llm-access/)
+- **Free software you can inspect and adapt.** Licensed under GNU GPL v3.
+- **Plan adoption with us.** Training, demonstrations, pilot design and deployment planning: [training and consultancy →](https://lamb-project.org/en/contact/)
 
-## Who is LAMB for?
+[Install LAMB on your own servers →](https://lamb-project.org/en/guides/0.8/installation/)
 
-- **📖 Teachers and trainers** who need a virtual assistant focused on their specific curriculum
-- **🏫 Educational centers** that use Moodle or other LMS and need to integrate AI without exposing student data
-- **💡 Innovation teams** experimenting with different LLMs and need a unified management panel
+## For developers
 
-## Main Features
+Build tools on the same institutional foundation: public APIs, a tool template and development utilities.
 
-### Unlimited Assistants
-Each with their own instructions, tone and personalized limits.
+| Project | What it is |
+|---|---|
+| [lamb](https://github.com/Lamb-Project/lamb) | The LAMB platform |
+| [lamb-tool-template](https://github.com/Lamb-Project/lamb-tool-template) | Sample LTI-enabled tool that uses an authorized LAMB assistant |
+| [lamb-lti-test-tool](https://github.com/Lamb-Project/lamb-lti-test-tool) | Exercise LTI launches, roles and grade return during development |
+| [moodle-cli](https://github.com/Lamb-Project/moodle-cli) | Python CLI for the Moodle web services API |
+| [lamb-cli](https://github.com/Lamb-Project/lamb/tree/main/lamb-cli) | Manage assistants, materials, tests and analytics from the terminal |
+| [lamb-evals](https://github.com/Lamb-Project/lamb-evals) | Evaluation framework for LAMB's LLM responses |
 
-### Flexible Knowledge Bases
-- **Adaptable data model**: flexible architecture that allows different types of content and structures
-- Support for PDF, DOCX, Markdown (more formats coming soon)
-- Public or private bases according to needs
-- Vector embeddings system for semantic search
-- Connectors in development for external sources (Google Drive, YouTube, APIs)
+Contributions are welcome: see [Contribute to LAMB](https://lamb-project.org/en/developers/contribute/).
 
-### Multiple AI Models
-- OpenAI GPT-4o
-- Mistral
-- Local models
-- One-click model switching
+## 🎓 Research & academic foundation
 
-### Automatic Citations
-The assistant provides responses with references to the source documents used.
+LAMB is studied and written about with research groups at UPC, UPV/EHU, the Universidad de Salamanca and the Universidad de Alicante (EduSTEAM, ONEKIN, GRIAL, Smart Learning), and adheres to the **[Safe AI in Education Manifesto](https://manifesto.safeaieducation.org)**.
+[Research groups & publications →](https://lamb-project.org/en/research/)
 
-### Total Portability
-- Export/import assistants in JSON format
-- Easy versioning and sharing
-
-### Multilingual Interface
-Catalan, Spanish, English and Basque included as standard.
-
-### Robust Access Control
-- Secret keys for registration
-- Private bases to prevent unauthorized use
-
-### Growing Ecosystem
-- **Modular and extensible architecture**: designed to incorporate new features without affecting the core
-- Customizable ingestion plugins for different data sources
-- Open API for third-party integrations
-- Continuous updates without dependence on a single AI provider
-- Flexible data model that evolves with educational needs
-
----
-
-## In short
-
-**LAMB gives you total control to build a "specialized ChatGPT" for your subject, connect it to your Moodle and keep your students' data completely secure.**
-
-<div style="text-align: center; margin: 2rem 0;">
-
-[📚 **Quick Tutorial (15 min)**](https://lamb-project.org/tutorial) ·
-[👨‍💻 For Developers](https://lamb-project.org/developers) ·
-[View on GitHub](https://github.com/Lamb-Project/lamb) ·
-[📋 Roadmap](https://lamb-project.org/en/roadmap) ·
-[Website](https://lamb-project.org)
-
-</div>
-
----
-
-## 🎓 Research & Academic Foundation
-
-**LAMB** is built on solid academic research and adheres to the **[Safe AI in Education Manifesto](https://manifesto.safeaieducation.org)** - a comprehensive framework for ethical, secure, and educationally-aligned AI deployment.
-
-### 📚 Academic Publication
-
-If you use LAMB in your research, please cite our work:
+### 📚 Cite LAMB
 
 **"LAMB: An open-source software framework to create artificial intelligence assistants deployed and integrated into learning management systems"**
 
@@ -125,14 +75,10 @@ If you use LAMB in your research, please cite our work:
 - **Journal:** Computer Standards & Interfaces, Volume 92, March 2025
 - **DOI:** [10.1016/j.csi.2024.103940](https://doi.org/10.1016/j.csi.2024.103940)
 
-### 🏛️ Academic Partners
-
-- **Universidad del País Vasco (UPV/EHU)** - Research institution and development partner
-- **Universitat Politècnica de Catalunya (UPC)** - Research institution and development partner
-  - Barcelona School of Informatics
-  - Institut de Ciències de l'Educació - ICE
-  - Department of Service and Information System Engineering (ESSI)
-
 ### 🙏 Acknowledgments
 
 Special thanks to the **Open WebUI Project**, **Tsugi Project** (Dr. Chuck Severance), **TEEM Conference** community, and **Tknika** Basque VET Applied Research Centre for their support and collaboration.
+
+---
+
+Looking for your course assistant? Your teacher or institution provides access through your course: [start here as a student](https://lamb-project.org/en/students/).
