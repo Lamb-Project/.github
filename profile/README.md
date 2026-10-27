@@ -75,6 +75,14 @@ LAMB is studied and written about with research groups at UPC, UPV/EHU, the Univ
 - **Journal:** Computer Standards & Interfaces, Volume 92, March 2025
 - **DOI:** [10.1016/j.csi.2024.103940](https://doi.org/10.1016/j.csi.2024.103940)
 
+### 🏛️ Academic Partners
+
+- **Universidad del País Vasco (UPV/EHU)** - Research institution and development partner
+- **Universitat Politècnica de Catalunya (UPC)** - Research institution and development partner
+  - Barcelona School of Informatics
+  - Institut de Ciències de l'Educació - ICE
+  - Department of Service and Information System Engineering (ESSI)
+
 ### 🙏 Acknowledgments
 
 Special thanks to the **Open WebUI Project**, **Tsugi Project** (Dr. Chuck Severance), **TEEM Conference** community, and **Tknika** Basque VET Applied Research Centre for their support and collaboration.
