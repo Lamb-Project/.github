@@ -5,7 +5,7 @@
 
 <div style="text-align: center; margin: 1.5rem 0;">
   <a href="http://www.lamb-project.org" style="text-decoration: none; margin: 0.25rem;"><img src="https://img.shields.io/badge/Website-lamb--project.org-blue" alt="Website"></a>
-  <a href="LICENSE" style="text-decoration: none; margin: 0.25rem;"><img src="https://img.shields.io/badge/license-GPL%20v3-blue.svg" alt="License"></a>
+  <a href="https://github.com/Lamb-Project/lamb/blob/main/LICENSE" style="text-decoration: none; margin: 0.25rem;"><img src="https://img.shields.io/badge/license-GPL%20v3-blue.svg" alt="License"></a>
   <a href="https://manifesto.safeaieducation.org" style="text-decoration: none; margin: 0.25rem;"><img src="https://img.shields.io/badge/Safe_AI_Education-Manifesto-green" alt="Safe AI in Education"></a>
   <a href="https://github.com/Lamb-Project/lamb" style="text-decoration: none; margin: 0.25rem;"><img src="https://img.shields.io/badge/GitHub-Lamb--Project-black" alt="GitHub"></a>
 </div>
@@ -13,11 +13,13 @@
 **Create AI assistants for education integrated in your Learning Management System**
 
 <div style="text-align: center; margin: 2rem 0;">
-  {{< button href="/tutorial" style="primary" >}}📚 Quick Tutorial (15 min){{< /button >}}
-  {{< button href="developers" style="secondary" >}}👨‍💻 For Developers{{< /button >}}
-  {{< button href="https://github.com/Lamb-Project/lamb" style="secondary" >}}View on GitHub{{< /button >}}
-  {{< button href="/en/roadmap" style="secondary" >}}📋 Roadmap{{< /button >}}
-  {{< button href="/features" >}}See all features{{< /button >}}
+
+[📚 **Quick Tutorial (15 min)**](https://lamb-project.org/tutorial) ·
+[👨‍💻 For Developers](https://lamb-project.org/developers) ·
+[View on GitHub](https://github.com/Lamb-Project/lamb) ·
+[📋 Roadmap](https://lamb-project.org/en/roadmap) ·
+[Website](https://lamb-project.org)
+
 </div>
 
 **LAMB** is a web platform that allows you to **design, train and publish AI-based learning assistants** in a visual and intuitive way. It works as a "teaching chatbot builder" that combines language models (GPT-4, Mistral, local models) with your own educational materials.
@@ -98,11 +100,13 @@ Catalan, Spanish, English and Basque included as standard.
 **LAMB gives you total control to build a "specialized ChatGPT" for your subject, connect it to your Moodle and keep your students' data completely secure.**
 
 <div style="text-align: center; margin: 2rem 0;">
-  {{< button href="/tutorial" style="primary" >}}📚 Quick Tutorial (15 min){{< /button >}}
-  {{< button href="developers" style="secondary" >}}👨‍💻 For Developers{{< /button >}}
-  {{< button href="https://github.com/Lamb-Project/lamb" style="secondary" >}}View on GitHub{{< /button >}}
-  {{< button href="/en/roadmap" style="secondary" >}}📋 Roadmap{{< /button >}}
-  {{< button href="/features" >}}See all features{{< /button >}}
+
+[📚 **Quick Tutorial (15 min)**](https://lamb-project.org/tutorial) ·
+[👨‍💻 For Developers](https://lamb-project.org/developers) ·
+[View on GitHub](https://github.com/Lamb-Project/lamb) ·
+[📋 Roadmap](https://lamb-project.org/en/roadmap) ·
+[Website](https://lamb-project.org)
+
 </div>
 
 ---
